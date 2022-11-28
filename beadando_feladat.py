@@ -1,3 +1,9 @@
+import os
+from time import sleep
+print("A képernyő 4 másodperc múlva frissülni fog!")
+sleep(4)
+os.system('cls')
+
 global f
 f = 0
 
