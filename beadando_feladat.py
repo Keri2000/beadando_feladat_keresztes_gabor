@@ -33,14 +33,14 @@ def center():
     a = int(input("Válassza ki a mozit: "))
     movie(a)
     return 0
-def movie(theater):
-    if theater == 1:
+def movie(cinema):
+    if cinema == 1:
         t_movie()
-    elif theater == 2:
+    elif cinema == 2:
         t_movie()
-    elif theater == 3:
+    elif cinema == 3:
         t_movie()
-    elif theater == 4:
+    elif cinema == 4:
         city()
     else:
         print("Hibás választás")
@@ -57,12 +57,12 @@ def t_movie():
     movie = int(input("Válassza ki a filmet: "))
     if movie == 4:
         center()
-        theater()
+        cinema()
         return 0
     if f == 1:
-        theater()
+        cinema()
 
-def theater():
+def cinema():
     print("Melyik teremben szeretné nézni a filmet?")
     print("1: VIP terem")
     print("2: 4DX terem")
