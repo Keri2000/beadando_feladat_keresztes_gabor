@@ -5,7 +5,7 @@ sleep(3)
 os.system('cls')
 
 global f
-f = 1
+f = 0
 
 def varos():
     print("Üdvözlöm a cinema city jegyfogaló oldalán! ")
